@@ -22,7 +22,7 @@ SCHEMA = {
     "type": "object",
     "properties": {
         "eligible": {"type": "boolean",
-                     "description": "True if the candidate described in the system prompt can realistically apply: entry-level or new-grad scope, not PhD-only, not an internship, degree timing compatible."},
+                     "description": "True if the candidate described in the system prompt can realistically apply: seniority within the range the system prompt allows, not PhD-only, not an internship, degree timing compatible."},
         "seniority": {"type": "string", "enum": ["new_grad", "early_career", "mid", "senior", "intern", "unclear"]},
         "bucket": {"type": "string", "enum": ["sde", "ml", "adjacent", "other"],
                    "description": "sde = software engineering; ml = machine learning / applied science / research engineering / AI engineering; adjacent = data scientist, data engineer, forward deployed, quant dev, solutions/ML platform roles worth a look; other = not relevant."},
@@ -46,6 +46,21 @@ SCHEMA = {
 }
 
 
+def _level_rules(c: dict) -> str:
+    """Which seniority counts as eligible. candidate.all_levels widens it beyond new grad."""
+    if c.get("all_levels"):
+        return (
+            "- The candidate is open to every individual-contributor level: new grad, early career, mid-level, "
+            "Senior and Staff. Judge eligibility on role match and whether the stated years of experience fit "
+            "the candidate's background; people-manager, director and PhD-only roles are not eligible.\n"
+        )
+    return (
+        "- 'New grad', 'university grad', 'early career', 'entry level', '2027 start', 'campus', level I/1, "
+        "'Level 3' at Snap, 'Software Engineer II' at Walmart, 'AMTS' at Salesforce, 'Analyst' at banks are entry-level.\n"
+        "- 'Software Engineer II' elsewhere, L4+, Senior, Staff, and anything asking for 3+ years of experience is not.\n"
+    )
+
+
 def _system_prompt(cfg: dict) -> str:
     c = cfg["candidate"]
     loc = cfg["locations"]
@@ -57,15 +72,13 @@ def _system_prompt(cfg: dict) -> str:
         f"Location preferences: United States only. {loc.get('preferred_summary') or ('Prefers ' + ', '.join(loc.get('preferred', [])[:8]))} "
         f"Will not take a role that is only in {', '.join(loc.get('exclude_only', []))}.\n\n"
         "Rules of thumb:\n"
-        "- 'New grad', 'university grad', 'early career', 'entry level', '2027 start', 'campus', level I/1, "
-        "'Level 3' at Snap, 'Software Engineer II' at Walmart, 'AMTS' at Salesforce, 'Analyst' at banks are entry-level.\n"
-        "- 'Software Engineer II' elsewhere, L4+, Senior, Staff, and anything asking for 3+ years of experience is not.\n"
-        "- A posting that lists a PhD as required is not eligible; 'MS or PhD' or 'advanced degree' is eligible.\n"
+        + _level_rules(c)
+        + "- A posting that lists a PhD as required is not eligible; 'MS or PhD' or 'advanced degree' is eligible.\n"
         "- Postings labelled '2026 start' may still accept December 2026 graduates; mark start='2026' and judge eligibility normally.\n"
         "- Applied Scientist I at Amazon and Data & Applied Sciences at Microsoft accept MS candidates.\n"
         "- If no description is given, judge from the title, company and metadata and set confidence='low'.\n"
         "- bucket 'ml' covers machine learning engineer, applied scientist, research engineer, AI engineer, "
-        "deep learning, ML infrastructure/platform, LLM roles. 'sde' covers general software, backend, infrastructure, "
+        "deep learning, ML infrastructure/platform, LLM roles. 'sde' covers general software, backend, infrastructure, DevOps, SRE, cloud and platform engineering, "
         "full stack, systems, distributed systems. 'adjacent' covers data scientist, data engineer, forward deployed "
         "engineer, quant developer, solutions engineer with heavy coding. Everything else is 'other'.\n"
         "- resume='MLE' for bucket ml and for data-science-flavoured adjacent roles; otherwise 'SDE'.\n"

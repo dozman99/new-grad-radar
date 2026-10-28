@@ -96,7 +96,7 @@ sources:
 
 github:
   # Filled automatically inside GitHub Actions from GITHUB_REPOSITORY; set for local runs.
-  repo: "ssshawnwang/new-grad-radar"
+  repo: "dozman99/new-grad-radar"
   labels:
     alert: "alert"
     digest: "digest"
