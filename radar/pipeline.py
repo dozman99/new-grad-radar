@@ -332,6 +332,10 @@ def digest(*, force: bool = False, dry_run: bool = False, skip_empty: bool = Fal
     for j in store.active():
         if not (j.prefilter or {}).get("passed") or j.digested_at:
             continue
+        # Already sent as an instant alert ("skipped:..." means no alert went out).
+        if j.alerted_at and not j.alerted_at.startswith("skipped"):
+            j.digested_at = "skipped:alerted"
+            continue
         c = j.classification
         if c and "error" not in c:
             if c.get("eligible") and c.get("bucket") in ("sde", "ml", "adjacent"):
