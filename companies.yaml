@@ -132,31 +132,32 @@
   token: robinhood
 
 - name: Datadog
-  tier: 2
+  tier: 1
   ats: greenhouse
   token: datadog
 
 - name: Bloomberg
   aliases: [Bloomberg LP]
-  tier: 2
+  tier: 1
   ats: none
 
 - name: Capital One
-  tier: 2
-  ats: none
+  tier: 1
+  ats: workday
+  workday: {host: capitalone.wd12.myworkdayjobs.com, tenant: capitalone, site: Capital_One}
 
 - name: JPMorgan Chase
   aliases: [JPMorganChase, JPMorgan, J.P. Morgan, JPMC]
-  tier: 2
+  tier: 1
   ats: none
 
 - name: Goldman Sachs
-  tier: 2
+  tier: 1
   ats: none
 
 - name: Walmart
   aliases: [Walmart Global Tech]
-  tier: 2
+  tier: 1
   ats: none
   level_exception: true
 
@@ -174,7 +175,7 @@
   ats: none
 
 - name: Intuit
-  tier: 2
+  tier: 1
   ats: none
 
 - name: Adobe
@@ -314,6 +315,151 @@
   token: gleanwork
 
 - name: Sierra
-  tier: 2
+  tier: 1
   ats: ashby
   token: sierra
+
+- name: Cloudflare
+  tier: 1
+  ats: greenhouse
+  token: cloudflare
+
+- name: F5
+  tier: 1
+  ats: workday
+  workday: {host: ffive.wd5.myworkdayjobs.com, tenant: ffive, site: f5jobs}
+
+- name: Dell
+  tier: 1
+  ats: none  # no public board found; covered via community lists
+
+- name: eBay
+  tier: 1
+  ats: workday
+  workday: {host: ebay.wd5.myworkdayjobs.com, tenant: ebay, site: apply}
+
+- name: Expedia Group
+  tier: 1
+  ats: workday
+  workday: {host: expedia.wd108.myworkdayjobs.com, tenant: expedia, site: search}
+
+- name: Disney
+  tier: 1
+  ats: workday
+  workday: {host: disney.wd5.myworkdayjobs.com, tenant: disney, site: disneycareer}
+
+- name: Electronic Arts
+  tier: 1
+  ats: none  # no public board found; covered via community lists
+
+- name: Riot Games
+  tier: 1
+  ats: greenhouse
+  token: riotgames
+
+- name: Patreon
+  tier: 1
+  ats: ashby
+  token: patreon
+
+- name: Fetch
+  tier: 1
+  ats: greenhouse
+  token: fetch
+
+- name: Morgan Stanley
+  tier: 1
+  ats: workday
+  workday: {host: ms.wd5.myworkdayjobs.com, tenant: ms, site: External}
+
+- name: Bank of America
+  tier: 1
+  ats: workday
+  workday: {host: ghr.wd1.myworkdayjobs.com, tenant: ghr, site: Lateral-US}
+
+- name: Fidelity Investments
+  tier: 1
+  ats: workday
+  workday: {host: fmr.wd1.myworkdayjobs.com, tenant: fmr, site: FidelityCareers}
+
+- name: Experian
+  tier: 1
+  ats: smartrecruiters
+  token: experian
+
+- name: Verizon
+  tier: 1
+  ats: workday
+  workday: {host: verizon.wd12.myworkdayjobs.com, tenant: verizon, site: verizon-careers}
+
+- name: Axon
+  tier: 1
+  ats: greenhouse
+  token: axon
+
+- name: Genentech
+  tier: 1
+  ats: workday
+  workday: {host: roche.wd3.myworkdayjobs.com, tenant: roche, site: roche-ext}
+
+- name: GE Healthcare
+  tier: 1
+  ats: workday
+  workday: {host: gehc.wd5.myworkdayjobs.com, tenant: gehc, site: GEHC_ExternalSite}
+
+- name: Vanguard
+  tier: 1
+  ats: workday
+  workday: {host: vanguard.wd5.myworkdayjobs.com, tenant: vanguard, site: vanguard_external}
+
+- name: PNC
+  tier: 1
+  ats: workday
+  workday: {host: pnc.wd5.myworkdayjobs.com, tenant: pnc, site: External}
+
+- name: Progressive
+  tier: 1
+  ats: none  # no public board found; covered via community lists
+
+- name: Rocket
+  tier: 1
+  ats: none  # no public board found; covered via community lists
+
+- name: World Wide Technology
+  tier: 1
+  ats: none  # no public board found; covered via community lists
+
+- name: Zebra Technologies
+  tier: 1
+  ats: none  # no public board found; covered via community lists
+
+- name: Lumen Technologies
+  tier: 1
+  ats: none  # no public board found; covered via community lists
+
+- name: Nintendo of America
+  tier: 1
+  ats: none  # no public board found; covered via community lists
+
+- name: ExxonMobil
+  tier: 1
+  ats: none  # no public board found; covered via community lists
+
+- name: Stellantis
+  tier: 1
+  ats: workday
+  workday: {host: stellantis.wd3.myworkdayjobs.com, tenant: stellantis, site: External_Career_Site_ID01}
+
+- name: EY
+  tier: 1
+  ats: none  # no public board found; covered via community lists
+
+- name: PwC
+  tier: 1
+  ats: workday
+  workday: {host: pwc.wd3.myworkdayjobs.com, tenant: pwc, site: Global_Experienced_Careers}
+
+- name: AbbVie
+  tier: 1
+  ats: smartrecruiters
+  token: abbvie
