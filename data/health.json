@@ -1,343 +1,343 @@
 {
- "at": "2026-10-30T06:11:44Z",
+ "at": "2026-10-30T07:11:12Z",
  "sources": {
   "simplify": {
    "ok": true,
-   "count": 2240,
-   "at": "2026-10-30T06:05:54Z"
+   "count": 2242,
+   "at": "2026-10-30T07:05:54Z"
   },
   "speedyapply_swe": {
    "ok": true,
    "count": 117,
-   "at": "2026-10-30T06:05:54Z"
+   "at": "2026-10-30T07:05:54Z"
   },
   "speedyapply_ai": {
    "ok": true,
    "count": 132,
-   "at": "2026-10-30T06:05:55Z"
+   "at": "2026-10-30T07:05:55Z"
   },
   "amazon:Amazon": {
    "ok": true,
    "count": 145,
-   "at": "2026-10-30T06:05:58Z"
+   "at": "2026-10-30T07:05:58Z"
   },
   "eightfold:Microsoft": {
    "ok": true,
-   "count": 54,
-   "at": "2026-10-30T06:06:03Z"
+   "count": 58,
+   "at": "2026-10-30T07:06:03Z"
   },
   "apple:Apple": {
    "ok": true,
    "count": 96,
-   "at": "2026-10-30T06:06:06Z"
+   "at": "2026-10-30T07:06:07Z"
   },
   "eightfold:Netflix": {
    "ok": true,
    "count": 45,
-   "at": "2026-10-30T06:06:08Z"
+   "at": "2026-10-30T07:06:11Z"
   },
   "workday:Nvidia": {
    "ok": true,
    "count": 336,
-   "at": "2026-10-30T06:06:35Z"
+   "at": "2026-10-30T07:06:35Z"
   },
   "workday:Salesforce": {
    "ok": true,
-   "count": 205,
-   "at": "2026-10-30T06:06:48Z"
+   "count": 214,
+   "at": "2026-10-30T07:06:49Z"
   },
   "greenhouse:Stripe": {
    "ok": true,
    "count": 738,
-   "at": "2026-10-30T06:06:49Z"
+   "at": "2026-10-30T07:06:50Z"
   },
   "greenhouse:Databricks": {
    "ok": true,
-   "count": 901,
-   "at": "2026-10-30T06:06:49Z"
+   "count": 902,
+   "at": "2026-10-30T07:06:51Z"
   },
   "greenhouse:Airbnb": {
    "ok": true,
    "count": 197,
-   "at": "2026-10-30T06:06:50Z"
+   "at": "2026-10-30T07:06:51Z"
   },
   "greenhouse:Pinterest": {
    "ok": true,
    "count": 165,
-   "at": "2026-10-30T06:06:50Z"
+   "at": "2026-10-30T07:06:51Z"
   },
   "greenhouse:Roblox": {
    "ok": true,
    "count": 268,
-   "at": "2026-10-30T06:06:50Z"
+   "at": "2026-10-30T07:06:51Z"
   },
   "lever:Palantir": {
    "ok": true,
    "count": 302,
-   "at": "2026-10-30T06:06:57Z"
+   "at": "2026-10-30T07:06:54Z"
   },
   "greenhouse:Anthropic": {
    "ok": true,
    "count": 669,
-   "at": "2026-10-30T06:06:57Z"
+   "at": "2026-10-30T07:06:54Z"
   },
   "ashby:OpenAI": {
    "ok": true,
    "count": 814,
-   "at": "2026-10-30T06:06:58Z"
+   "at": "2026-10-30T07:06:54Z"
   },
   "greenhouse:Scale AI": {
    "ok": true,
    "count": 169,
-   "at": "2026-10-30T06:06:58Z"
+   "at": "2026-10-30T07:06:54Z"
   },
   "greenhouse:Coinbase": {
    "ok": true,
    "count": 234,
-   "at": "2026-10-30T06:06:58Z"
+   "at": "2026-10-30T07:06:55Z"
   },
   "greenhouse:Robinhood": {
    "ok": true,
    "count": 167,
-   "at": "2026-10-30T06:06:58Z"
+   "at": "2026-10-30T07:06:55Z"
   },
   "greenhouse:Datadog": {
    "ok": true,
-   "count": 397,
-   "at": "2026-10-30T06:06:58Z"
+   "count": 398,
+   "at": "2026-10-30T07:06:55Z"
   },
   "workday:Capital One": {
    "ok": true,
    "count": 458,
-   "at": "2026-10-30T06:07:09Z"
+   "at": "2026-10-30T07:07:06Z"
   },
   "workday:Adobe": {
    "ok": true,
-   "count": 149,
-   "at": "2026-10-30T06:07:25Z"
+   "count": 148,
+   "at": "2026-10-30T07:07:23Z"
   },
   "greenhouse:DoorDash": {
    "ok": true,
    "count": 441,
-   "at": "2026-10-30T06:07:25Z"
+   "at": "2026-10-30T07:07:23Z"
   },
   "greenhouse:Lyft": {
    "ok": true,
-   "count": 179,
-   "at": "2026-10-30T06:07:25Z"
+   "count": 173,
+   "at": "2026-10-30T07:07:23Z"
   },
   "greenhouse:Instacart": {
    "ok": true,
    "count": 93,
-   "at": "2026-10-30T06:07:25Z"
+   "at": "2026-10-30T07:07:23Z"
   },
   "greenhouse:Block": {
    "ok": true,
    "count": 204,
-   "at": "2026-10-30T06:07:26Z"
+   "at": "2026-10-30T07:07:24Z"
   },
   "greenhouse:Dropbox": {
    "ok": true,
    "count": 23,
-   "at": "2026-10-30T06:07:26Z"
+   "at": "2026-10-30T07:07:24Z"
   },
   "greenhouse:Figma": {
    "ok": true,
    "count": 141,
-   "at": "2026-10-30T06:07:26Z"
+   "at": "2026-10-30T07:07:24Z"
   },
   "ashby:Notion": {
    "ok": true,
    "count": 145,
-   "at": "2026-10-30T06:07:26Z"
+   "at": "2026-10-30T07:07:24Z"
   },
   "ashby:Ramp": {
    "ok": true,
    "count": 168,
-   "at": "2026-10-30T06:07:26Z"
+   "at": "2026-10-30T07:07:24Z"
   },
   "ashby:Plaid": {
    "ok": true,
    "count": 130,
-   "at": "2026-10-30T06:07:26Z"
+   "at": "2026-10-30T07:07:24Z"
   },
   "greenhouse:Jane Street": {
    "ok": true,
    "count": 221,
-   "at": "2026-10-30T06:07:26Z"
+   "at": "2026-10-30T07:07:24Z"
   },
   "greenhouse:Hudson River Trading": {
    "ok": true,
    "count": 85,
-   "at": "2026-10-30T06:07:27Z"
+   "at": "2026-10-30T07:07:25Z"
   },
   "greenhouse:Waymo": {
    "ok": true,
    "count": 369,
-   "at": "2026-10-30T06:07:27Z"
+   "at": "2026-10-30T07:07:25Z"
   },
   "lever:Zoox": {
    "ok": true,
    "count": 231,
-   "at": "2026-10-30T06:07:27Z"
+   "at": "2026-10-30T07:07:25Z"
   },
   "greenhouse:Duolingo": {
    "ok": true,
    "count": 58,
-   "at": "2026-10-30T06:07:27Z"
+   "at": "2026-10-30T07:07:25Z"
   },
   "ashby:Aurora": {
    "ok": true,
    "count": 97,
-   "at": "2026-10-30T06:07:27Z"
+   "at": "2026-10-30T07:07:25Z"
   },
   "greenhouse:xAI": {
    "ok": true,
    "count": 303,
-   "at": "2026-10-30T06:07:28Z"
+   "at": "2026-10-30T07:07:26Z"
   },
   "ashby:Perplexity": {
    "ok": true,
    "count": 134,
-   "at": "2026-10-30T06:07:28Z"
+   "at": "2026-10-30T07:07:26Z"
   },
   "ashby:Cursor": {
    "ok": true,
    "count": 125,
-   "at": "2026-10-30T06:07:28Z"
+   "at": "2026-10-30T07:07:26Z"
   },
   "ashby:Cohere": {
    "ok": true,
    "count": 122,
-   "at": "2026-10-30T06:07:28Z"
+   "at": "2026-10-30T07:07:26Z"
   },
   "greenhouse:Together AI": {
    "ok": true,
    "count": 86,
-   "at": "2026-10-30T06:07:28Z"
+   "at": "2026-10-30T07:07:26Z"
   },
   "greenhouse:Glean": {
    "ok": true,
    "count": 130,
-   "at": "2026-10-30T06:07:28Z"
+   "at": "2026-10-30T07:07:26Z"
   },
   "ashby:Sierra": {
    "ok": true,
    "count": 217,
-   "at": "2026-10-30T06:07:28Z"
+   "at": "2026-10-30T07:07:26Z"
   },
   "greenhouse:Cloudflare": {
    "ok": true,
-   "count": 464,
-   "at": "2026-10-30T06:07:28Z"
+   "count": 463,
+   "at": "2026-10-30T07:07:26Z"
   },
   "workday:F5": {
    "ok": true,
    "count": 116,
-   "at": "2026-10-30T06:07:40Z"
+   "at": "2026-10-30T07:07:37Z"
   },
   "workday:eBay": {
    "ok": true,
-   "count": 121,
-   "at": "2026-10-30T06:07:58Z"
+   "count": 122,
+   "at": "2026-10-30T07:07:52Z"
   },
   "workday:Expedia Group": {
    "ok": true,
-   "count": 83,
-   "at": "2026-10-30T06:08:08Z"
+   "count": 78,
+   "at": "2026-10-30T07:07:59Z"
   },
   "workday:Disney": {
    "ok": true,
-   "count": 144,
-   "at": "2026-10-30T06:08:24Z"
+   "count": 142,
+   "at": "2026-10-30T07:08:13Z"
   },
   "greenhouse:Riot Games": {
    "ok": true,
    "count": 183,
-   "at": "2026-10-30T06:08:25Z"
+   "at": "2026-10-30T07:08:13Z"
   },
   "ashby:Patreon": {
    "ok": true,
    "count": 20,
-   "at": "2026-10-30T06:08:25Z"
+   "at": "2026-10-30T07:08:13Z"
   },
   "greenhouse:Fetch": {
    "ok": true,
    "count": 61,
-   "at": "2026-10-30T06:08:25Z"
+   "at": "2026-10-30T07:08:13Z"
   },
   "workday:Morgan Stanley": {
    "ok": true,
    "count": 168,
-   "at": "2026-10-30T06:08:41Z"
+   "at": "2026-10-30T07:08:28Z"
   },
   "workday:Bank of America": {
    "ok": true,
    "count": 177,
-   "at": "2026-10-30T06:08:56Z"
+   "at": "2026-10-30T07:08:43Z"
   },
   "workday:Fidelity Investments": {
    "ok": true,
-   "count": 157,
-   "at": "2026-10-30T06:09:13Z"
+   "count": 156,
+   "at": "2026-10-30T07:09:02Z"
   },
   "smartrecruiters:Experian": {
    "ok": true,
    "count": 390,
-   "at": "2026-10-30T06:09:17Z"
+   "at": "2026-10-30T07:09:05Z"
   },
   "workday:Verizon": {
    "ok": true,
-   "count": 193,
-   "at": "2026-10-30T06:09:26Z"
+   "count": 192,
+   "at": "2026-10-30T07:09:11Z"
   },
   "greenhouse:Axon": {
    "ok": true,
    "count": 461,
-   "at": "2026-10-30T06:09:27Z"
+   "at": "2026-10-30T07:09:11Z"
   },
   "workday:Genentech": {
    "ok": true,
    "count": 288,
-   "at": "2026-10-30T06:09:48Z"
+   "at": "2026-10-30T07:09:30Z"
   },
   "workday:GE Healthcare": {
    "ok": true,
-   "count": 275,
-   "at": "2026-10-30T06:10:06Z"
+   "count": 273,
+   "at": "2026-10-30T07:09:40Z"
   },
   "workday:Vanguard": {
    "ok": true,
-   "count": 145,
-   "at": "2026-10-30T06:10:26Z"
+   "count": 146,
+   "at": "2026-10-30T07:09:59Z"
   },
   "workday:PNC": {
    "ok": true,
-   "count": 85,
-   "at": "2026-10-30T06:10:46Z"
+   "count": 83,
+   "at": "2026-10-30T07:10:16Z"
   },
   "workday:Stellantis": {
    "ok": true,
    "count": 10,
-   "at": "2026-10-30T06:10:51Z"
+   "at": "2026-10-30T07:10:21Z"
   },
   "workday:PwC": {
    "ok": true,
    "count": 457,
-   "at": "2026-10-30T06:11:29Z"
+   "at": "2026-10-30T07:11:00Z"
   },
   "smartrecruiters:AbbVie": {
    "ok": true,
    "count": 1969,
-   "at": "2026-10-30T06:11:34Z"
+   "at": "2026-10-30T07:11:03Z"
   }
  },
  "stats": {
-  "active": 4928,
-  "screened_in": 5341,
+  "active": 4921,
+  "screened_in": 5346,
   "eligible": 2008,
-  "new_this_run": 0,
-  "fetched": 18667,
+  "new_this_run": 5,
+  "fetched": 18665,
   "alerted": 0,
   "classify": {
    "attempted": 100,
