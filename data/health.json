@@ -1,353 +1,353 @@
 {
- "at": "2026-10-31T06:12:49Z",
+ "at": "2026-10-31T07:10:13Z",
  "sources": {
   "simplify": {
    "ok": true,
-   "count": 2249,
-   "at": "2026-10-31T06:05:57Z"
+   "count": 2267,
+   "at": "2026-10-31T07:05:54Z"
   },
   "speedyapply_swe": {
    "ok": true,
    "count": 117,
-   "at": "2026-10-31T06:05:58Z"
+   "at": "2026-10-31T07:05:54Z"
   },
   "speedyapply_ai": {
    "ok": true,
    "count": 130,
-   "at": "2026-10-31T06:05:58Z"
+   "at": "2026-10-31T07:05:55Z"
   },
   "amazon:Amazon": {
    "ok": true,
    "count": 147,
-   "at": "2026-10-31T06:06:01Z"
+   "at": "2026-10-31T07:05:58Z"
   },
   "eightfold:Microsoft": {
    "ok": true,
    "count": 57,
-   "at": "2026-10-31T06:06:03Z"
+   "at": "2026-10-31T07:06:03Z"
   },
   "apple:Apple": {
    "ok": true,
    "count": 96,
-   "at": "2026-10-31T06:06:06Z"
+   "at": "2026-10-31T07:06:06Z"
   },
   "eightfold:Netflix": {
    "ok": true,
    "count": 44,
-   "at": "2026-10-31T06:06:10Z"
+   "at": "2026-10-31T07:06:09Z"
   },
   "workday:Nvidia": {
    "ok": false,
-   "error": "POST https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs failed: 500 Server Error: Internal Server Error for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-   "at": "2026-10-31T06:06:49Z"
+   "error": "POST https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs failed: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-31T07:06:20Z"
   },
   "workday:Salesforce": {
    "ok": true,
    "count": 208,
-   "at": "2026-10-31T06:07:03Z"
+   "at": "2026-10-31T07:06:34Z"
   },
   "greenhouse:Stripe": {
    "ok": true,
    "count": 746,
-   "at": "2026-10-31T06:07:04Z"
+   "at": "2026-10-31T07:06:35Z"
   },
   "greenhouse:Databricks": {
    "ok": true,
    "count": 901,
-   "at": "2026-10-31T06:07:04Z"
+   "at": "2026-10-31T07:06:35Z"
   },
   "greenhouse:Airbnb": {
    "ok": true,
    "count": 202,
-   "at": "2026-10-31T06:07:04Z"
+   "at": "2026-10-31T07:06:36Z"
   },
   "greenhouse:Pinterest": {
    "ok": true,
    "count": 170,
-   "at": "2026-10-31T06:07:04Z"
+   "at": "2026-10-31T07:06:36Z"
   },
   "greenhouse:Roblox": {
    "ok": true,
    "count": 268,
-   "at": "2026-10-31T06:07:04Z"
+   "at": "2026-10-31T07:06:37Z"
   },
   "lever:Palantir": {
    "ok": true,
    "count": 299,
-   "at": "2026-10-31T06:07:06Z"
+   "at": "2026-10-31T07:06:39Z"
   },
   "greenhouse:Anthropic": {
    "ok": true,
    "count": 675,
-   "at": "2026-10-31T06:07:06Z"
+   "at": "2026-10-31T07:06:39Z"
   },
   "ashby:OpenAI": {
    "ok": true,
    "count": 813,
-   "at": "2026-10-31T06:07:07Z"
+   "at": "2026-10-31T07:06:40Z"
   },
   "greenhouse:Scale AI": {
    "ok": true,
    "count": 170,
-   "at": "2026-10-31T06:07:07Z"
+   "at": "2026-10-31T07:06:40Z"
   },
   "greenhouse:Coinbase": {
    "ok": true,
    "count": 250,
-   "at": "2026-10-31T06:07:07Z"
+   "at": "2026-10-31T07:06:40Z"
   },
   "greenhouse:Robinhood": {
    "ok": true,
    "count": 160,
-   "at": "2026-10-31T06:07:07Z"
+   "at": "2026-10-31T07:06:40Z"
   },
   "greenhouse:Datadog": {
    "ok": true,
    "count": 397,
-   "at": "2026-10-31T06:07:07Z"
+   "at": "2026-10-31T07:06:40Z"
   },
   "workday:Capital One": {
    "ok": true,
    "count": 468,
-   "at": "2026-10-31T06:07:25Z"
+   "at": "2026-10-31T07:06:55Z"
   },
   "workday:Adobe": {
    "ok": false,
-   "error": "POST https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs failed: HTTPSConnectionPool(host='adobe.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=30)",
-   "at": "2026-10-31T06:08:06Z"
+   "error": "POST https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs failed: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-31T07:07:06Z"
   },
   "greenhouse:DoorDash": {
    "ok": true,
    "count": 438,
-   "at": "2026-10-31T06:08:07Z"
+   "at": "2026-10-31T07:07:07Z"
   },
   "greenhouse:Lyft": {
    "ok": true,
    "count": 170,
-   "at": "2026-10-31T06:08:07Z"
+   "at": "2026-10-31T07:07:07Z"
   },
   "greenhouse:Instacart": {
    "ok": true,
    "count": 96,
-   "at": "2026-10-31T06:08:07Z"
+   "at": "2026-10-31T07:07:07Z"
   },
   "greenhouse:Block": {
    "ok": true,
    "count": 204,
-   "at": "2026-10-31T06:08:07Z"
+   "at": "2026-10-31T07:07:07Z"
   },
   "greenhouse:Dropbox": {
    "ok": true,
    "count": 24,
-   "at": "2026-10-31T06:08:07Z"
+   "at": "2026-10-31T07:07:07Z"
   },
   "greenhouse:Figma": {
    "ok": true,
    "count": 140,
-   "at": "2026-10-31T06:08:08Z"
+   "at": "2026-10-31T07:07:08Z"
   },
   "ashby:Notion": {
    "ok": true,
    "count": 148,
-   "at": "2026-10-31T06:08:08Z"
+   "at": "2026-10-31T07:07:08Z"
   },
   "ashby:Ramp": {
    "ok": true,
    "count": 171,
-   "at": "2026-10-31T06:08:08Z"
+   "at": "2026-10-31T07:07:08Z"
   },
   "ashby:Plaid": {
    "ok": true,
    "count": 132,
-   "at": "2026-10-31T06:08:08Z"
+   "at": "2026-10-31T07:07:08Z"
   },
   "greenhouse:Jane Street": {
    "ok": true,
    "count": 218,
-   "at": "2026-10-31T06:08:08Z"
+   "at": "2026-10-31T07:07:08Z"
   },
   "greenhouse:Hudson River Trading": {
    "ok": true,
    "count": 85,
-   "at": "2026-10-31T06:08:08Z"
+   "at": "2026-10-31T07:07:08Z"
   },
   "greenhouse:Waymo": {
    "ok": true,
    "count": 372,
-   "at": "2026-10-31T06:08:09Z"
+   "at": "2026-10-31T07:07:08Z"
   },
   "lever:Zoox": {
    "ok": true,
    "count": 227,
-   "at": "2026-10-31T06:08:09Z"
+   "at": "2026-10-31T07:07:10Z"
   },
   "greenhouse:Duolingo": {
    "ok": true,
    "count": 57,
-   "at": "2026-10-31T06:08:09Z"
+   "at": "2026-10-31T07:07:10Z"
   },
   "ashby:Aurora": {
    "ok": true,
    "count": 93,
-   "at": "2026-10-31T06:08:09Z"
+   "at": "2026-10-31T07:07:10Z"
   },
   "greenhouse:xAI": {
    "ok": true,
    "count": 308,
-   "at": "2026-10-31T06:08:10Z"
+   "at": "2026-10-31T07:07:10Z"
   },
   "ashby:Perplexity": {
    "ok": true,
    "count": 138,
-   "at": "2026-10-31T06:08:10Z"
+   "at": "2026-10-31T07:07:10Z"
   },
   "ashby:Cursor": {
    "ok": true,
    "count": 125,
-   "at": "2026-10-31T06:08:10Z"
+   "at": "2026-10-31T07:07:10Z"
   },
   "ashby:Cohere": {
    "ok": true,
    "count": 122,
-   "at": "2026-10-31T06:08:10Z"
+   "at": "2026-10-31T07:07:10Z"
   },
   "greenhouse:Together AI": {
    "ok": true,
    "count": 88,
-   "at": "2026-10-31T06:08:10Z"
+   "at": "2026-10-31T07:07:10Z"
   },
   "greenhouse:Glean": {
    "ok": true,
    "count": 127,
-   "at": "2026-10-31T06:08:10Z"
+   "at": "2026-10-31T07:07:10Z"
   },
   "ashby:Sierra": {
    "ok": true,
    "count": 220,
-   "at": "2026-10-31T06:08:10Z"
+   "at": "2026-10-31T07:07:11Z"
   },
   "greenhouse:Cloudflare": {
    "ok": true,
    "count": 464,
-   "at": "2026-10-31T06:08:10Z"
+   "at": "2026-10-31T07:07:11Z"
   },
   "workday:F5": {
    "ok": false,
    "error": "POST https://ffive.wd5.myworkdayjobs.com/wday/cxs/ffive/f5jobs/jobs failed: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-10-31T06:08:21Z"
+   "at": "2026-10-31T07:07:21Z"
   },
   "workday:eBay": {
    "ok": false,
-   "error": "POST https://ebay.wd5.myworkdayjobs.com/wday/cxs/ebay/apply/jobs failed: 500 Server Error: Internal Server Error for url: https://ebay.wd5.myworkdayjobs.com/wday/cxs/ebay/apply/jobs",
-   "at": "2026-10-31T06:08:33Z"
+   "error": "POST https://ebay.wd5.myworkdayjobs.com/wday/cxs/ebay/apply/jobs failed: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-31T07:07:32Z"
   },
   "workday:Expedia Group": {
    "ok": true,
-   "count": 81,
-   "at": "2026-10-31T06:08:43Z"
+   "count": 79,
+   "at": "2026-10-31T07:07:41Z"
   },
   "workday:Disney": {
    "ok": false,
    "error": "POST https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs failed: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-10-31T06:08:55Z"
+   "at": "2026-10-31T07:07:53Z"
   },
   "greenhouse:Riot Games": {
    "ok": true,
    "count": 184,
-   "at": "2026-10-31T06:08:55Z"
+   "at": "2026-10-31T07:07:53Z"
   },
   "ashby:Patreon": {
    "ok": true,
    "count": 19,
-   "at": "2026-10-31T06:08:56Z"
+   "at": "2026-10-31T07:07:53Z"
   },
   "greenhouse:Fetch": {
    "ok": true,
    "count": 60,
-   "at": "2026-10-31T06:08:56Z"
+   "at": "2026-10-31T07:07:53Z"
   },
   "workday:Morgan Stanley": {
    "ok": false,
    "error": "POST https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs failed: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-10-31T06:09:06Z"
+   "at": "2026-10-31T07:08:04Z"
   },
   "workday:Bank of America": {
    "ok": false,
-   "error": "POST https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Lateral-US/jobs failed: 500 Server Error: Internal Server Error for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Lateral-US/jobs",
-   "at": "2026-10-31T06:09:18Z"
+   "error": "POST https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Lateral-US/jobs failed: Expecting value: line 1 column 1 (char 0)",
+   "at": "2026-10-31T07:08:15Z"
   },
   "workday:Fidelity Investments": {
    "ok": false,
    "error": "POST https://fmr.wd1.myworkdayjobs.com/wday/cxs/fmr/FidelityCareers/jobs failed: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-10-31T06:09:29Z"
+   "at": "2026-10-31T07:08:27Z"
   },
   "smartrecruiters:Experian": {
    "ok": true,
    "count": 399,
-   "at": "2026-10-31T06:09:32Z"
+   "at": "2026-10-31T07:08:30Z"
   },
   "workday:Verizon": {
    "ok": true,
    "count": 190,
-   "at": "2026-10-31T06:09:46Z"
+   "at": "2026-10-31T07:08:37Z"
   },
   "greenhouse:Axon": {
    "ok": true,
    "count": 471,
-   "at": "2026-10-31T06:09:46Z"
+   "at": "2026-10-31T07:08:37Z"
   },
   "workday:Genentech": {
    "ok": false,
    "error": "POST https://roche.wd3.myworkdayjobs.com/wday/cxs/roche/roche-ext/jobs failed: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-10-31T06:09:57Z"
+   "at": "2026-10-31T07:08:49Z"
   },
   "workday:GE Healthcare": {
    "ok": false,
    "error": "POST https://gehc.wd5.myworkdayjobs.com/wday/cxs/gehc/GEHC_ExternalSite/jobs failed: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-10-31T06:10:09Z"
+   "at": "2026-10-31T07:09:01Z"
   },
   "workday:Vanguard": {
    "ok": false,
    "error": "POST https://vanguard.wd5.myworkdayjobs.com/wday/cxs/vanguard/vanguard_external/jobs failed: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-10-31T06:10:21Z"
+   "at": "2026-10-31T07:09:12Z"
   },
   "workday:PNC": {
    "ok": false,
    "error": "POST https://pnc.wd5.myworkdayjobs.com/wday/cxs/pnc/External/jobs failed: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-10-31T06:10:33Z"
+   "at": "2026-10-31T07:09:24Z"
   },
   "workday:Stellantis": {
    "ok": false,
    "error": "POST https://stellantis.wd3.myworkdayjobs.com/wday/cxs/stellantis/External_Career_Site_ID01/jobs failed: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-10-31T06:10:45Z"
+   "at": "2026-10-31T07:09:36Z"
   },
   "workday:PwC": {
    "ok": false,
    "error": "POST https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs failed: Expecting value: line 1 column 1 (char 0)",
-   "at": "2026-10-31T06:10:58Z"
+   "at": "2026-10-31T07:09:48Z"
   },
   "smartrecruiters:AbbVie": {
    "ok": true,
    "count": 1978,
-   "at": "2026-10-31T06:11:03Z"
+   "at": "2026-10-31T07:09:53Z"
   }
  },
  "stats": {
-  "active": 4899,
-  "screened_in": 5526,
-  "eligible": 2981,
-  "new_this_run": 0,
-  "fetched": 16116,
+  "active": 4905,
+  "screened_in": 5534,
+  "eligible": 2983,
+  "new_this_run": 8,
+  "fetched": 16132,
   "alerted": 0,
   "classify": {
-   "attempted": 65,
-   "classified": 65,
+   "attempted": 8,
+   "classified": 8,
    "skipped_no_key": false,
-   "pending": 65,
+   "pending": 8,
    "backend": "claude_code",
-   "calls": 65,
-   "input_tokens": 319891,
-   "output_tokens": 26704
+   "calls": 8,
+   "input_tokens": 29619,
+   "output_tokens": 3468
   }
  }
 }
