@@ -1,353 +1,353 @@
 {
- "at": "2026-11-03T00:13:47Z",
+ "at": "2026-11-03T20:24:59Z",
  "sources": {
   "simplify": {
-   "ok": true,
-   "count": 2239,
-   "at": "2026-11-03T00:05:55Z"
+   "ok": false,
+   "error": "GET https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json failed: HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json (Caused by NameResolution",
+   "at": "2026-11-03T19:06:20Z"
   },
   "speedyapply_swe": {
-   "ok": true,
-   "count": 115,
-   "at": "2026-11-03T00:05:55Z"
+   "ok": false,
+   "error": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /speedyapply/2027-SWE-College-Jobs/main/NEW_GRAD_USA.md (Caused by NameResolutionError(\"HTTPSConnection(host='raw.githubusercontent.com', port=443): Failed to resolve 'raw.githubusercontent.com' ([Errno -",
+   "at": "2026-11-03T19:06:25Z"
   },
   "speedyapply_ai": {
-   "ok": true,
-   "count": 133,
-   "at": "2026-11-03T00:05:55Z"
+   "ok": false,
+   "error": "HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Max retries exceeded with url: /speedyapply/2027-AI-College-Jobs/main/NEW_GRAD_USA.md (Caused by NameResolutionError(\"HTTPSConnection(host='raw.githubusercontent.com', port=443): Failed to resolve 'raw.githubusercontent.com' ([Errno -3",
+   "at": "2026-11-03T19:06:31Z"
   },
   "amazon:Amazon": {
-   "ok": true,
-   "count": 150,
-   "at": "2026-11-03T00:05:59Z"
+   "ok": false,
+   "error": "GET https://www.amazon.jobs/en/search.json failed: HTTPSConnectionPool(host='www.amazon.jobs', port=443): Max retries exceeded with url: /en/search.json?base_query=software+development+engineer+2027&country%5B%5D=USA&result_limit=100&offset=0&sort=recent (Caused by NameResolutionError(\"HTTPSConnecti",
+   "at": "2026-11-03T19:06:57Z"
   },
   "eightfold:Microsoft": {
-   "ok": true,
-   "count": 56,
-   "at": "2026-11-03T00:06:04Z"
+   "ok": false,
+   "error": "GET https://apply.careers.microsoft.com/api/pcsx/search failed: HTTPSConnectionPool(host='apply.careers.microsoft.com', port=443): Max retries exceeded with url: /api/pcsx/search?domain=microsoft.com&query=new+grad&start=0&num=50&sort_by=timestamp (Caused by NameResolutionError(\"HTTPSConnection(host",
+   "at": "2026-11-03T19:07:26Z"
   },
   "apple:Apple": {
-   "ok": true,
-   "count": 106,
-   "at": "2026-11-03T00:06:08Z"
+   "ok": false,
+   "error": "POST https://jobs.apple.com/api/v1/search failed: HTTPSConnectionPool(host='jobs.apple.com', port=443): Max retries exceeded with url: /api/v1/search (Caused by NameResolutionError(\"HTTPSConnection(host='jobs.apple.com', port=443): Failed to resolve 'jobs.apple.com' ([Errno -3] Temporary failure in ",
+   "at": "2026-11-03T19:07:58Z"
   },
   "eightfold:Netflix": {
-   "ok": true,
-   "count": 45,
-   "at": "2026-11-03T00:06:11Z"
+   "ok": false,
+   "error": "GET https://explore.jobs.netflix.net/api/apply/v2/jobs failed: HTTPSConnectionPool(host='explore.jobs.netflix.net', port=443): Max retries exceeded with url: /api/apply/v2/jobs?domain=netflix.com&query=new+grad&start=0&num=50&sort_by=timestamp (Caused by NameResolutionError(\"HTTPSConnection(host='ex",
+   "at": "2026-11-03T19:08:25Z"
   },
   "workday:Nvidia": {
-   "ok": true,
-   "count": 338,
-   "at": "2026-11-03T00:06:39Z"
+   "ok": false,
+   "error": "POST https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs failed: HTTPSConnectionPool(host='nvidia.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='nvid",
+   "at": "2026-11-03T19:09:00Z"
   },
   "workday:Salesforce": {
-   "ok": true,
-   "count": 208,
-   "at": "2026-11-03T00:06:53Z"
+   "ok": false,
+   "error": "POST https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs failed: HTTPSConnectionPool(host='salesforce.wd12.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/salesforce/External_Career_Site/jobs (Caused by NameResolutionError(\"HTTPSConnection(",
+   "at": "2026-11-03T19:09:31Z"
   },
   "greenhouse:Stripe": {
-   "ok": true,
-   "count": 741,
-   "at": "2026-11-03T00:06:54Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/stripe/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/stripe/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boar",
+   "at": "2026-11-03T19:09:56Z"
   },
   "greenhouse:Databricks": {
-   "ok": true,
-   "count": 911,
-   "at": "2026-11-03T00:06:54Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/databricks/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/databricks/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resol",
+   "at": "2026-11-03T19:10:26Z"
   },
   "greenhouse:Airbnb": {
-   "ok": true,
-   "count": 211,
-   "at": "2026-11-03T00:06:54Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/airbnb/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/airbnb/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boar",
+   "at": "2026-11-03T19:10:57Z"
   },
   "greenhouse:Pinterest": {
-   "ok": true,
-   "count": 169,
-   "at": "2026-11-03T00:06:54Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/pinterest/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/pinterest/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve",
+   "at": "2026-11-03T19:11:25Z"
   },
   "greenhouse:Roblox": {
-   "ok": true,
-   "count": 266,
-   "at": "2026-11-03T00:06:55Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/roblox/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/roblox/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boar",
+   "at": "2026-11-03T19:11:50Z"
   },
   "lever:Palantir": {
-   "ok": true,
-   "count": 305,
-   "at": "2026-11-03T00:07:24Z"
+   "ok": false,
+   "error": "GET https://api.lever.co/v0/postings/palantir failed: HTTPSConnectionPool(host='api.lever.co', port=443): Max retries exceeded with url: /v0/postings/palantir?mode=json (Caused by NameResolutionError(\"HTTPSConnection(host='api.lever.co', port=443): Failed to resolve 'api.lever.co' ([Errno -3] Tempor",
+   "at": "2026-11-03T19:12:24Z"
   },
   "greenhouse:Anthropic": {
-   "ok": true,
-   "count": 676,
-   "at": "2026-11-03T00:07:24Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/anthropic/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/anthropic/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve",
+   "at": "2026-11-03T19:12:55Z"
   },
   "ashby:OpenAI": {
-   "ok": true,
-   "count": 805,
-   "at": "2026-11-03T00:07:25Z"
+   "ok": false,
+   "error": "GET https://api.ashbyhq.com/posting-api/job-board/openai failed: HTTPSConnectionPool(host='api.ashbyhq.com', port=443): Max retries exceeded with url: /posting-api/job-board/openai (Caused by NameResolutionError(\"HTTPSConnection(host='api.ashbyhq.com', port=443): Failed to resolve 'api.ashbyhq.com' ",
+   "at": "2026-11-03T19:13:29Z"
   },
   "greenhouse:Scale AI": {
-   "ok": true,
-   "count": 167,
-   "at": "2026-11-03T00:07:25Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/scaleai/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/scaleai/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'bo",
+   "at": "2026-11-03T19:13:56Z"
   },
   "greenhouse:Coinbase": {
-   "ok": true,
-   "count": 266,
-   "at": "2026-11-03T00:07:25Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/coinbase/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/coinbase/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve '",
+   "at": "2026-11-03T19:14:30Z"
   },
   "greenhouse:Robinhood": {
-   "ok": true,
-   "count": 162,
-   "at": "2026-11-03T00:07:25Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/robinhood/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/robinhood/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve",
+   "at": "2026-11-03T19:14:59Z"
   },
   "greenhouse:Datadog": {
-   "ok": true,
-   "count": 405,
-   "at": "2026-11-03T00:07:25Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/datadog/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/datadog/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'bo",
+   "at": "2026-11-03T19:15:30Z"
   },
   "workday:Capital One": {
-   "ok": true,
-   "count": 463,
-   "at": "2026-11-03T00:07:40Z"
+   "ok": false,
+   "error": "POST https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs failed: HTTPSConnectionPool(host='capitalone.wd12.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/capitalone/Capital_One/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='capitalone.w",
+   "at": "2026-11-03T19:15:58Z"
   },
   "workday:Adobe": {
-   "ok": true,
-   "count": 146,
-   "at": "2026-11-03T00:07:57Z"
+   "ok": false,
+   "error": "POST https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs failed: HTTPSConnectionPool(host='adobe.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/adobe/external_experienced/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='adobe.wd5.mywork",
+   "at": "2026-11-03T19:16:25Z"
   },
   "greenhouse:DoorDash": {
-   "ok": true,
-   "count": 435,
-   "at": "2026-11-03T00:07:57Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/doordashusa/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/doordashusa/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to res",
+   "at": "2026-11-03T19:16:53Z"
   },
   "greenhouse:Lyft": {
-   "ok": true,
-   "count": 172,
-   "at": "2026-11-03T00:07:58Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/lyft/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/lyft/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-a",
+   "at": "2026-11-03T19:17:21Z"
   },
   "greenhouse:Instacart": {
-   "ok": true,
-   "count": 94,
-   "at": "2026-11-03T00:07:58Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/instacart/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/instacart/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve",
+   "at": "2026-11-03T19:17:53Z"
   },
   "greenhouse:Block": {
-   "ok": true,
-   "count": 203,
-   "at": "2026-11-03T00:07:58Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/block/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/block/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards",
+   "at": "2026-11-03T19:18:19Z"
   },
   "greenhouse:Dropbox": {
-   "ok": true,
-   "count": 26,
-   "at": "2026-11-03T00:07:58Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/dropbox/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/dropbox/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'bo",
+   "at": "2026-11-03T19:18:47Z"
   },
   "greenhouse:Figma": {
-   "ok": true,
-   "count": 141,
-   "at": "2026-11-03T00:07:58Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/figma/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/figma/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards",
+   "at": "2026-11-03T19:19:14Z"
   },
   "ashby:Notion": {
-   "ok": true,
-   "count": 146,
-   "at": "2026-11-03T00:07:58Z"
+   "ok": false,
+   "error": "GET https://api.ashbyhq.com/posting-api/job-board/notion failed: HTTPSConnectionPool(host='api.ashbyhq.com', port=443): Max retries exceeded with url: /posting-api/job-board/notion (Caused by NameResolutionError(\"HTTPSConnection(host='api.ashbyhq.com', port=443): Failed to resolve 'api.ashbyhq.com' ",
+   "at": "2026-11-03T19:19:39Z"
   },
   "ashby:Ramp": {
-   "ok": true,
-   "count": 170,
-   "at": "2026-11-03T00:07:58Z"
+   "ok": false,
+   "error": "GET https://api.ashbyhq.com/posting-api/job-board/ramp failed: HTTPSConnectionPool(host='api.ashbyhq.com', port=443): Max retries exceeded with url: /posting-api/job-board/ramp (Caused by NameResolutionError(\"HTTPSConnection(host='api.ashbyhq.com', port=443): Failed to resolve 'api.ashbyhq.com' ([Er",
+   "at": "2026-11-03T19:20:01Z"
   },
   "ashby:Plaid": {
-   "ok": true,
-   "count": 137,
-   "at": "2026-11-03T00:07:59Z"
+   "ok": false,
+   "error": "GET https://api.ashbyhq.com/posting-api/job-board/plaid failed: HTTPSConnectionPool(host='api.ashbyhq.com', port=443): Max retries exceeded with url: /posting-api/job-board/plaid (Caused by NameResolutionError(\"HTTPSConnection(host='api.ashbyhq.com', port=443): Failed to resolve 'api.ashbyhq.com' ([",
+   "at": "2026-11-03T19:20:32Z"
   },
   "greenhouse:Jane Street": {
-   "ok": true,
-   "count": 217,
-   "at": "2026-11-03T00:07:59Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/janestreet/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/janestreet/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resol",
+   "at": "2026-11-03T19:21:04Z"
   },
   "greenhouse:Hudson River Trading": {
-   "ok": true,
-   "count": 84,
-   "at": "2026-11-03T00:07:59Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/wehrtyou/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/wehrtyou/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve '",
+   "at": "2026-11-03T19:21:34Z"
   },
   "greenhouse:Waymo": {
-   "ok": true,
-   "count": 370,
-   "at": "2026-11-03T00:07:59Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/waymo/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/waymo/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards",
+   "at": "2026-11-03T19:22:02Z"
   },
   "lever:Zoox": {
-   "ok": true,
-   "count": 225,
-   "at": "2026-11-03T00:08:22Z"
+   "ok": false,
+   "error": "GET https://api.lever.co/v0/postings/zoox failed: HTTPSConnectionPool(host='api.lever.co', port=443): Max retries exceeded with url: /v0/postings/zoox?mode=json (Caused by NameResolutionError(\"HTTPSConnection(host='api.lever.co', port=443): Failed to resolve 'api.lever.co' ([Errno -3] Temporary fail",
+   "at": "2026-11-03T19:22:37Z"
   },
   "greenhouse:Duolingo": {
-   "ok": true,
-   "count": 54,
-   "at": "2026-11-03T00:08:22Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/duolingo/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/duolingo/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve '",
+   "at": "2026-11-03T19:23:09Z"
   },
   "ashby:Aurora": {
-   "ok": true,
-   "count": 93,
-   "at": "2026-11-03T00:08:22Z"
+   "ok": false,
+   "error": "GET https://api.ashbyhq.com/posting-api/job-board/aurora-operations-inc failed: HTTPSConnectionPool(host='api.ashbyhq.com', port=443): Max retries exceeded with url: /posting-api/job-board/aurora-operations-inc (Caused by NameResolutionError(\"HTTPSConnection(host='api.ashbyhq.com', port=443): Failed",
+   "at": "2026-11-03T19:23:41Z"
   },
   "greenhouse:xAI": {
-   "ok": true,
-   "count": 310,
-   "at": "2026-11-03T00:08:22Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/xai/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/xai/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-api",
+   "at": "2026-11-03T19:24:10Z"
   },
   "ashby:Perplexity": {
-   "ok": true,
-   "count": 136,
-   "at": "2026-11-03T00:08:22Z"
+   "ok": false,
+   "error": "GET https://api.ashbyhq.com/posting-api/job-board/perplexity failed: HTTPSConnectionPool(host='api.ashbyhq.com', port=443): Max retries exceeded with url: /posting-api/job-board/perplexity (Caused by NameResolutionError(\"HTTPSConnection(host='api.ashbyhq.com', port=443): Failed to resolve 'api.ashby",
+   "at": "2026-11-03T19:24:38Z"
   },
   "ashby:Cursor": {
-   "ok": true,
-   "count": 124,
-   "at": "2026-11-03T00:08:22Z"
+   "ok": false,
+   "error": "GET https://api.ashbyhq.com/posting-api/job-board/cursor failed: HTTPSConnectionPool(host='api.ashbyhq.com', port=443): Max retries exceeded with url: /posting-api/job-board/cursor (Caused by NameResolutionError(\"HTTPSConnection(host='api.ashbyhq.com', port=443): Failed to resolve 'api.ashbyhq.com' ",
+   "at": "2026-11-03T19:25:00Z"
   },
   "ashby:Cohere": {
-   "ok": true,
-   "count": 120,
-   "at": "2026-11-03T00:08:22Z"
+   "ok": false,
+   "error": "GET https://api.ashbyhq.com/posting-api/job-board/cohere failed: HTTPSConnectionPool(host='api.ashbyhq.com', port=443): Max retries exceeded with url: /posting-api/job-board/cohere (Caused by NameResolutionError(\"HTTPSConnection(host='api.ashbyhq.com', port=443): Failed to resolve 'api.ashbyhq.com' ",
+   "at": "2026-11-03T19:25:28Z"
   },
   "greenhouse:Together AI": {
-   "ok": true,
-   "count": 88,
-   "at": "2026-11-03T00:08:22Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/togetherai/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/togetherai/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resol",
+   "at": "2026-11-03T19:25:53Z"
   },
   "greenhouse:Glean": {
-   "ok": true,
-   "count": 127,
-   "at": "2026-11-03T00:08:23Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/gleanwork/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/gleanwork/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve",
+   "at": "2026-11-03T19:26:15Z"
   },
   "ashby:Sierra": {
-   "ok": true,
-   "count": 219,
-   "at": "2026-11-03T00:08:23Z"
+   "ok": false,
+   "error": "GET https://api.ashbyhq.com/posting-api/job-board/sierra failed: HTTPSConnectionPool(host='api.ashbyhq.com', port=443): Max retries exceeded with url: /posting-api/job-board/sierra (Caused by NameResolutionError(\"HTTPSConnection(host='api.ashbyhq.com', port=443): Failed to resolve 'api.ashbyhq.com' ",
+   "at": "2026-11-03T19:26:43Z"
   },
   "greenhouse:Cloudflare": {
-   "ok": true,
-   "count": 471,
-   "at": "2026-11-03T00:08:23Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/cloudflare/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resol",
+   "at": "2026-11-03T19:27:12Z"
   },
   "workday:F5": {
-   "ok": true,
-   "count": 116,
-   "at": "2026-11-03T00:08:32Z"
+   "ok": false,
+   "error": "POST https://ffive.wd5.myworkdayjobs.com/wday/cxs/ffive/f5jobs/jobs failed: HTTPSConnectionPool(host='ffive.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/ffive/f5jobs/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='ffive.wd5.myworkdayjobs.com', port=443): Fai",
+   "at": "2026-11-03T19:27:43Z"
   },
   "workday:eBay": {
-   "ok": true,
-   "count": 117,
-   "at": "2026-11-03T00:08:48Z"
+   "ok": false,
+   "error": "POST https://ebay.wd5.myworkdayjobs.com/wday/cxs/ebay/apply/jobs failed: HTTPSConnectionPool(host='ebay.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/ebay/apply/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='ebay.wd5.myworkdayjobs.com', port=443): Failed to ",
+   "at": "2026-11-03T19:28:08Z"
   },
   "workday:Expedia Group": {
-   "ok": true,
-   "count": 76,
-   "at": "2026-11-03T00:08:56Z"
+   "ok": false,
+   "error": "POST https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs failed: HTTPSConnectionPool(host='expedia.wd108.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/expedia/search/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='expedia.wd108.myworkdayjobs.com'",
+   "at": "2026-11-03T19:28:34Z"
   },
   "workday:Disney": {
-   "ok": true,
-   "count": 131,
-   "at": "2026-11-03T00:09:09Z"
+   "ok": false,
+   "error": "POST https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs failed: HTTPSConnectionPool(host='disney.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/disney/disneycareer/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='disney.wd5.myworkdayjobs.com",
+   "at": "2026-11-03T19:29:00Z"
   },
   "greenhouse:Riot Games": {
-   "ok": true,
-   "count": 182,
-   "at": "2026-11-03T00:09:10Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/riotgames/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/riotgames/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve",
+   "at": "2026-11-03T19:29:26Z"
   },
   "ashby:Patreon": {
-   "ok": true,
-   "count": 20,
-   "at": "2026-11-03T00:09:10Z"
+   "ok": false,
+   "error": "GET https://api.ashbyhq.com/posting-api/job-board/patreon failed: HTTPSConnectionPool(host='api.ashbyhq.com', port=443): Max retries exceeded with url: /posting-api/job-board/patreon (Caused by NameResolutionError(\"HTTPSConnection(host='api.ashbyhq.com', port=443): Failed to resolve 'api.ashbyhq.com",
+   "at": "2026-11-03T19:29:57Z"
   },
   "greenhouse:Fetch": {
-   "ok": true,
-   "count": 60,
-   "at": "2026-11-03T00:09:10Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/fetch/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/fetch/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards",
+   "at": "2026-11-03T19:30:26Z"
   },
   "workday:Morgan Stanley": {
-   "ok": true,
-   "count": 165,
-   "at": "2026-11-03T00:09:27Z"
+   "ok": false,
+   "error": "POST https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs failed: HTTPSConnectionPool(host='ms.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/ms/External/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='ms.wd5.myworkdayjobs.com', port=443): Failed to reso",
+   "at": "2026-11-03T19:30:57Z"
   },
   "workday:Bank of America": {
-   "ok": true,
-   "count": 172,
-   "at": "2026-11-03T00:09:49Z"
+   "ok": false,
+   "error": "POST https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Lateral-US/jobs failed: HTTPSConnectionPool(host='ghr.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/ghr/Lateral-US/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='ghr.wd1.myworkdayjobs.com', port=443): Faile",
+   "at": "2026-11-03T19:31:19Z"
   },
   "workday:Fidelity Investments": {
-   "ok": true,
-   "count": 153,
-   "at": "2026-11-03T00:10:04Z"
+   "ok": false,
+   "error": "POST https://fmr.wd1.myworkdayjobs.com/wday/cxs/fmr/FidelityCareers/jobs failed: HTTPSConnectionPool(host='fmr.wd1.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/fmr/FidelityCareers/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='fmr.wd1.myworkdayjobs.com', port=4",
+   "at": "2026-11-03T19:31:47Z"
   },
   "smartrecruiters:Experian": {
-   "ok": true,
-   "count": 406,
-   "at": "2026-11-03T00:10:07Z"
+   "ok": false,
+   "error": "GET https://api.smartrecruiters.com/v1/companies/experian/postings failed: HTTPSConnectionPool(host='api.smartrecruiters.com', port=443): Max retries exceeded with url: /v1/companies/experian/postings?limit=100&offset=0 (Caused by NameResolutionError(\"HTTPSConnection(host='api.smartrecruiters.com', ",
+   "at": "2026-11-03T19:32:19Z"
   },
   "workday:Verizon": {
-   "ok": true,
-   "count": 196,
-   "at": "2026-11-03T00:10:13Z"
+   "ok": false,
+   "error": "POST https://verizon.wd12.myworkdayjobs.com/wday/cxs/verizon/verizon-careers/jobs failed: HTTPSConnectionPool(host='verizon.wd12.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/verizon/verizon-careers/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='verizon.wd12.myw",
+   "at": "2026-11-03T19:32:51Z"
   },
   "greenhouse:Axon": {
-   "ok": true,
-   "count": 474,
-   "at": "2026-11-03T00:10:17Z"
+   "ok": false,
+   "error": "GET https://boards-api.greenhouse.io/v1/boards/axon/jobs failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/axon/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-a",
+   "at": "2026-11-03T19:33:16Z"
   },
   "workday:Genentech": {
-   "ok": true,
-   "count": 288,
-   "at": "2026-11-03T00:10:37Z"
+   "ok": false,
+   "error": "POST https://roche.wd3.myworkdayjobs.com/wday/cxs/roche/roche-ext/jobs failed: HTTPSConnectionPool(host='roche.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/roche/roche-ext/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='roche.wd3.myworkdayjobs.com', port=443",
+   "at": "2026-11-03T19:33:45Z"
   },
   "workday:GE Healthcare": {
-   "ok": true,
-   "count": 278,
-   "at": "2026-11-03T00:10:50Z"
+   "ok": false,
+   "error": "POST https://gehc.wd5.myworkdayjobs.com/wday/cxs/gehc/GEHC_ExternalSite/jobs failed: HTTPSConnectionPool(host='gehc.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/gehc/GEHC_ExternalSite/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='gehc.wd5.myworkdayjobs.com",
+   "at": "2026-11-03T19:34:09Z"
   },
   "workday:Vanguard": {
-   "ok": true,
-   "count": 139,
-   "at": "2026-11-03T00:11:09Z"
+   "ok": false,
+   "error": "POST https://vanguard.wd5.myworkdayjobs.com/wday/cxs/vanguard/vanguard_external/jobs failed: HTTPSConnectionPool(host='vanguard.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/vanguard/vanguard_external/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='vanguard.w",
+   "at": "2026-11-03T19:34:42Z"
   },
   "workday:PNC": {
-   "ok": true,
-   "count": 77,
-   "at": "2026-11-03T00:11:27Z"
+   "ok": false,
+   "error": "POST https://pnc.wd5.myworkdayjobs.com/wday/cxs/pnc/External/jobs failed: HTTPSConnectionPool(host='pnc.wd5.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/pnc/External/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='pnc.wd5.myworkdayjobs.com', port=443): Failed to",
+   "at": "2026-11-03T19:35:14Z"
   },
   "workday:Stellantis": {
-   "ok": true,
-   "count": 10,
-   "at": "2026-11-03T00:11:32Z"
+   "ok": false,
+   "error": "POST https://stellantis.wd3.myworkdayjobs.com/wday/cxs/stellantis/External_Career_Site_ID01/jobs failed: HTTPSConnectionPool(host='stellantis.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/stellantis/External_Career_Site_ID01/jobs (Caused by NameResolutionError(\"HTTPSCon",
+   "at": "2026-11-03T19:35:39Z"
   },
   "workday:PwC": {
-   "ok": true,
-   "count": 457,
-   "at": "2026-11-03T00:12:07Z"
+   "ok": false,
+   "error": "POST https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs failed: HTTPSConnectionPool(host='pwc.wd3.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/pwc/Global_Experienced_Careers/jobs (Caused by NameResolutionError(\"HTTPSConnection(host='pwc.wd3.mywo",
+   "at": "2026-11-03T19:36:08Z"
   },
   "smartrecruiters:AbbVie": {
-   "ok": true,
-   "count": 1993,
-   "at": "2026-11-03T00:12:12Z"
+   "ok": false,
+   "error": "GET https://api.smartrecruiters.com/v1/companies/abbvie/postings failed: HTTPSConnectionPool(host='api.smartrecruiters.com', port=443): Max retries exceeded with url: /v1/companies/abbvie/postings?limit=100&offset=0 (Caused by NameResolutionError(\"HTTPSConnection(host='api.smartrecruiters.com', port",
+   "at": "2026-11-03T19:36:40Z"
   }
  },
  "stats": {
   "active": 4896,
   "screened_in": 5722,
   "eligible": 3052,
-  "new_this_run": 88,
-  "fetched": 18755,
-  "alerted": 30,
+  "new_this_run": 0,
+  "fetched": 0,
+  "alerted": 0,
   "classify": {
    "attempted": 50,
-   "classified": 50,
+   "classified": 0,
    "skipped_no_key": false,
    "pending": 50,
    "backend": "claude_code",
-   "calls": 50,
-   "input_tokens": 217994,
-   "output_tokens": 20023
+   "calls": 0,
+   "input_tokens": 0,
+   "output_tokens": 0
   }
  }
 }
