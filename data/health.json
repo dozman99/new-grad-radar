@@ -1,343 +1,343 @@
 {
- "at": "2026-11-27T14:10:30Z",
+ "at": "2026-11-27T19:10:10Z",
  "sources": {
   "simplify": {
    "ok": true,
-   "count": 2195,
-   "at": "2026-11-27T14:05:36Z"
+   "count": 2194,
+   "at": "2026-11-27T19:05:34Z"
   },
   "speedyapply_swe": {
    "ok": true,
    "count": 195,
-   "at": "2026-11-27T14:05:36Z"
+   "at": "2026-11-27T19:05:34Z"
   },
   "speedyapply_ai": {
    "ok": true,
    "count": 137,
-   "at": "2026-11-27T14:05:36Z"
+   "at": "2026-11-27T19:05:34Z"
   },
   "amazon:Amazon": {
    "ok": true,
    "count": 155,
-   "at": "2026-11-27T14:05:40Z"
+   "at": "2026-11-27T19:05:37Z"
   },
   "eightfold:Microsoft": {
    "ok": true,
-   "count": 58,
-   "at": "2026-11-27T14:05:42Z"
+   "count": 59,
+   "at": "2026-11-27T19:05:40Z"
   },
   "apple:Apple": {
    "ok": true,
    "count": 118,
-   "at": "2026-11-27T14:05:46Z"
+   "at": "2026-11-27T19:05:43Z"
   },
   "eightfold:Netflix": {
    "ok": true,
    "count": 53,
-   "at": "2026-11-27T14:05:50Z"
+   "at": "2026-11-27T19:05:49Z"
   },
   "workday:Nvidia": {
    "ok": false,
    "error": "POST https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs failed: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
-   "at": "2026-11-27T14:06:16Z"
+   "at": "2026-11-27T19:06:11Z"
   },
   "workday:Salesforce": {
    "ok": false,
    "error": "POST https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs failed: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
-   "at": "2026-11-27T14:06:31Z"
+   "at": "2026-11-27T19:06:25Z"
   },
   "greenhouse:Stripe": {
    "ok": true,
-   "count": 765,
-   "at": "2026-11-27T14:06:32Z"
+   "count": 768,
+   "at": "2026-11-27T19:06:26Z"
   },
   "greenhouse:Databricks": {
    "ok": true,
-   "count": 881,
-   "at": "2026-11-27T14:06:32Z"
+   "count": 889,
+   "at": "2026-11-27T19:06:27Z"
   },
   "greenhouse:Airbnb": {
    "ok": true,
    "count": 200,
-   "at": "2026-11-27T14:06:32Z"
+   "at": "2026-11-27T19:06:27Z"
   },
   "greenhouse:Pinterest": {
    "ok": true,
-   "count": 166,
-   "at": "2026-11-27T14:06:32Z"
+   "count": 165,
+   "at": "2026-11-27T19:06:27Z"
   },
   "greenhouse:Roblox": {
    "ok": true,
    "count": 259,
-   "at": "2026-11-27T14:06:32Z"
+   "at": "2026-11-27T19:06:27Z"
   },
   "lever:Palantir": {
    "ok": true,
    "count": 305,
-   "at": "2026-11-27T14:06:38Z"
+   "at": "2026-11-27T19:06:34Z"
   },
   "greenhouse:Anthropic": {
    "ok": true,
    "count": 634,
-   "at": "2026-11-27T14:06:38Z"
+   "at": "2026-11-27T19:06:34Z"
   },
   "ashby:OpenAI": {
    "ok": true,
    "count": 876,
-   "at": "2026-11-27T14:06:39Z"
+   "at": "2026-11-27T19:06:35Z"
   },
   "greenhouse:Scale AI": {
    "ok": true,
    "count": 158,
-   "at": "2026-11-27T14:06:39Z"
+   "at": "2026-11-27T19:06:35Z"
   },
   "greenhouse:Coinbase": {
    "ok": true,
    "count": 256,
-   "at": "2026-11-27T14:06:39Z"
+   "at": "2026-11-27T19:06:35Z"
   },
   "greenhouse:Robinhood": {
    "ok": true,
    "count": 161,
-   "at": "2026-11-27T14:06:39Z"
+   "at": "2026-11-27T19:06:35Z"
   },
   "greenhouse:Datadog": {
    "ok": true,
-   "count": 391,
-   "at": "2026-11-27T14:06:39Z"
+   "count": 390,
+   "at": "2026-11-27T19:06:35Z"
   },
   "workday:Capital One": {
    "ok": false,
    "error": "POST https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs failed: 429 Client Error: Too Many Requests for url: https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs",
-   "at": "2026-11-27T14:06:49Z"
+   "at": "2026-11-27T19:06:46Z"
   },
   "workday:Adobe": {
    "ok": false,
    "error": "POST https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs failed: 429 Client Error: Too Many Requests for url: https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
-   "at": "2026-11-27T14:07:00Z"
+   "at": "2026-11-27T19:06:57Z"
   },
   "greenhouse:DoorDash": {
    "ok": true,
    "count": 402,
-   "at": "2026-11-27T14:07:01Z"
+   "at": "2026-11-27T19:06:57Z"
   },
   "greenhouse:Lyft": {
    "ok": true,
-   "count": 144,
-   "at": "2026-11-27T14:07:01Z"
+   "count": 143,
+   "at": "2026-11-27T19:06:57Z"
   },
   "greenhouse:Instacart": {
    "ok": true,
    "count": 97,
-   "at": "2026-11-27T14:07:01Z"
+   "at": "2026-11-27T19:06:57Z"
   },
   "greenhouse:Block": {
    "ok": true,
    "count": 183,
-   "at": "2026-11-27T14:07:02Z"
+   "at": "2026-11-27T19:06:58Z"
   },
   "greenhouse:Dropbox": {
    "ok": true,
    "count": 51,
-   "at": "2026-11-27T14:07:02Z"
+   "at": "2026-11-27T19:06:58Z"
   },
   "greenhouse:Figma": {
    "ok": true,
-   "count": 141,
-   "at": "2026-11-27T14:07:02Z"
+   "count": 140,
+   "at": "2026-11-27T19:06:58Z"
   },
   "ashby:Notion": {
    "ok": true,
    "count": 174,
-   "at": "2026-11-27T14:07:02Z"
+   "at": "2026-11-27T19:06:58Z"
   },
   "ashby:Ramp": {
    "ok": true,
    "count": 183,
-   "at": "2026-11-27T14:07:02Z"
+   "at": "2026-11-27T19:06:58Z"
   },
   "ashby:Plaid": {
    "ok": true,
    "count": 144,
-   "at": "2026-11-27T14:07:02Z"
+   "at": "2026-11-27T19:06:58Z"
   },
   "greenhouse:Jane Street": {
    "ok": true,
    "count": 219,
-   "at": "2026-11-27T14:07:03Z"
+   "at": "2026-11-27T19:06:58Z"
   },
   "greenhouse:Hudson River Trading": {
    "ok": true,
    "count": 86,
-   "at": "2026-11-27T14:07:03Z"
+   "at": "2026-11-27T19:06:59Z"
   },
   "greenhouse:Waymo": {
    "ok": true,
    "count": 356,
-   "at": "2026-11-27T14:07:03Z"
+   "at": "2026-11-27T19:06:59Z"
   },
   "lever:Zoox": {
    "ok": true,
    "count": 246,
-   "at": "2026-11-27T14:07:03Z"
+   "at": "2026-11-27T19:06:59Z"
   },
   "greenhouse:Duolingo": {
    "ok": true,
    "count": 54,
-   "at": "2026-11-27T14:07:03Z"
+   "at": "2026-11-27T19:06:59Z"
   },
   "ashby:Aurora": {
    "ok": true,
    "count": 82,
-   "at": "2026-11-27T14:07:03Z"
+   "at": "2026-11-27T19:06:59Z"
   },
   "greenhouse:xAI": {
    "ok": true,
    "count": 300,
-   "at": "2026-11-27T14:07:03Z"
+   "at": "2026-11-27T19:06:59Z"
   },
   "ashby:Perplexity": {
    "ok": true,
    "count": 150,
-   "at": "2026-11-27T14:07:04Z"
+   "at": "2026-11-27T19:07:00Z"
   },
   "ashby:Cursor": {
    "ok": true,
    "count": 87,
-   "at": "2026-11-27T14:07:04Z"
+   "at": "2026-11-27T19:07:00Z"
   },
   "ashby:Cohere": {
    "ok": true,
-   "count": 123,
-   "at": "2026-11-27T14:07:04Z"
+   "count": 122,
+   "at": "2026-11-27T19:07:00Z"
   },
   "greenhouse:Together AI": {
    "ok": true,
    "count": 80,
-   "at": "2026-11-27T14:07:04Z"
+   "at": "2026-11-27T19:07:00Z"
   },
   "greenhouse:Glean": {
    "ok": true,
    "count": 121,
-   "at": "2026-11-27T14:07:04Z"
+   "at": "2026-11-27T19:07:00Z"
   },
   "ashby:Sierra": {
    "ok": true,
    "count": 203,
-   "at": "2026-11-27T14:07:04Z"
+   "at": "2026-11-27T19:07:00Z"
   },
   "greenhouse:Cloudflare": {
    "ok": true,
    "count": 533,
-   "at": "2026-11-27T14:07:04Z"
+   "at": "2026-11-27T19:07:00Z"
   },
   "workday:F5": {
    "ok": false,
    "error": "POST https://ffive.wd5.myworkdayjobs.com/wday/cxs/ffive/f5jobs/jobs failed: 429 Client Error: Too Many Requests for url: https://ffive.wd5.myworkdayjobs.com/wday/cxs/ffive/f5jobs/jobs",
-   "at": "2026-11-27T14:07:23Z"
+   "at": "2026-11-27T19:07:15Z"
   },
   "workday:eBay": {
    "ok": false,
    "error": "POST https://ebay.wd5.myworkdayjobs.com/wday/cxs/ebay/apply/jobs failed: 429 Client Error: Too Many Requests for url: https://ebay.wd5.myworkdayjobs.com/wday/cxs/ebay/apply/jobs",
-   "at": "2026-11-27T14:07:34Z"
+   "at": "2026-11-27T19:07:26Z"
   },
   "workday:Expedia Group": {
    "ok": false,
    "error": "POST https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs failed: 429 Client Error: Too Many Requests for url: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs",
-   "at": "2026-11-27T14:07:47Z"
+   "at": "2026-11-27T19:07:38Z"
   },
   "workday:Disney": {
    "ok": false,
    "error": "POST https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs failed: 429 Client Error: Too Many Requests for url: https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs",
-   "at": "2026-11-27T14:07:59Z"
+   "at": "2026-11-27T19:07:48Z"
   },
   "greenhouse:Riot Games": {
    "ok": true,
    "count": 198,
-   "at": "2026-11-27T14:07:59Z"
+   "at": "2026-11-27T19:07:48Z"
   },
   "ashby:Patreon": {
    "ok": true,
    "count": 21,
-   "at": "2026-11-27T14:07:59Z"
+   "at": "2026-11-27T19:07:48Z"
   },
   "greenhouse:Fetch": {
    "ok": true,
    "count": 53,
-   "at": "2026-11-27T14:07:59Z"
+   "at": "2026-11-27T19:07:48Z"
   },
   "workday:Morgan Stanley": {
    "ok": false,
    "error": "POST https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs failed: 429 Client Error: Too Many Requests for url: https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs",
-   "at": "2026-11-27T14:08:10Z"
+   "at": "2026-11-27T19:07:58Z"
   },
   "workday:Bank of America": {
    "ok": false,
    "error": "POST https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Lateral-US/jobs failed: 429 Client Error: Too Many Requests for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/Lateral-US/jobs",
-   "at": "2026-11-27T14:08:21Z"
+   "at": "2026-11-27T19:08:09Z"
   },
   "workday:Fidelity Investments": {
    "ok": false,
    "error": "POST https://fmr.wd1.myworkdayjobs.com/wday/cxs/fmr/FidelityCareers/jobs failed: 429 Client Error: Too Many Requests for url: https://fmr.wd1.myworkdayjobs.com/wday/cxs/fmr/FidelityCareers/jobs",
-   "at": "2026-11-27T14:08:42Z"
+   "at": "2026-11-27T19:08:27Z"
   },
   "smartrecruiters:Experian": {
    "ok": true,
    "count": 413,
-   "at": "2026-11-27T14:08:45Z"
+   "at": "2026-11-27T19:08:29Z"
   },
   "workday:Verizon": {
    "ok": false,
    "error": "POST https://verizon.wd12.myworkdayjobs.com/wday/cxs/verizon/verizon-careers/jobs failed: 429 Client Error: Too Many Requests for url: https://verizon.wd12.myworkdayjobs.com/wday/cxs/verizon/verizon-careers/jobs",
-   "at": "2026-11-27T14:08:57Z"
+   "at": "2026-11-27T19:08:39Z"
   },
   "greenhouse:Axon": {
    "ok": true,
    "count": 458,
-   "at": "2026-11-27T14:08:58Z"
+   "at": "2026-11-27T19:08:39Z"
   },
   "workday:Genentech": {
    "ok": false,
    "error": "POST https://roche.wd3.myworkdayjobs.com/wday/cxs/roche/roche-ext/jobs failed: 429 Client Error: Too Many Requests for url: https://roche.wd3.myworkdayjobs.com/wday/cxs/roche/roche-ext/jobs",
-   "at": "2026-11-27T14:09:21Z"
+   "at": "2026-11-27T19:08:51Z"
   },
   "workday:GE Healthcare": {
    "ok": false,
    "error": "POST https://gehc.wd5.myworkdayjobs.com/wday/cxs/gehc/GEHC_ExternalSite/jobs failed: 429 Client Error: Too Many Requests for url: https://gehc.wd5.myworkdayjobs.com/wday/cxs/gehc/GEHC_ExternalSite/jobs",
-   "at": "2026-11-27T14:09:34Z"
+   "at": "2026-11-27T19:09:02Z"
   },
   "workday:Vanguard": {
    "ok": false,
    "error": "POST https://vanguard.wd5.myworkdayjobs.com/wday/cxs/vanguard/vanguard_external/jobs failed: 429 Client Error: Too Many Requests for url: https://vanguard.wd5.myworkdayjobs.com/wday/cxs/vanguard/vanguard_external/jobs",
-   "at": "2026-11-27T14:09:45Z"
+   "at": "2026-11-27T19:09:23Z"
   },
   "workday:PNC": {
    "ok": false,
    "error": "POST https://pnc.wd5.myworkdayjobs.com/wday/cxs/pnc/External/jobs failed: 429 Client Error: Too Many Requests for url: https://pnc.wd5.myworkdayjobs.com/wday/cxs/pnc/External/jobs",
-   "at": "2026-11-27T14:09:56Z"
+   "at": "2026-11-27T19:09:34Z"
   },
   "workday:Stellantis": {
    "ok": false,
    "error": "POST https://stellantis.wd3.myworkdayjobs.com/wday/cxs/stellantis/External_Career_Site_ID01/jobs failed: 429 Client Error: Too Many Requests for url: https://stellantis.wd3.myworkdayjobs.com/wday/cxs/stellantis/External_Career_Site_ID01/jobs",
-   "at": "2026-11-27T14:10:08Z"
+   "at": "2026-11-27T19:09:47Z"
   },
   "workday:PwC": {
    "ok": false,
    "error": "POST https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs failed: 429 Client Error: Too Many Requests for url: https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Experienced_Careers/jobs",
-   "at": "2026-11-27T14:10:20Z"
+   "at": "2026-11-27T19:09:59Z"
   },
   "smartrecruiters:AbbVie": {
    "ok": true,
-   "count": 1990,
-   "at": "2026-11-27T14:10:24Z"
+   "count": 1994,
+   "at": "2026-11-27T19:10:04Z"
   }
  },
  "stats": {
-  "active": 4940,
-  "screened_in": 8309,
+  "active": 4945,
+  "screened_in": 8314,
   "eligible": 4352,
-  "new_this_run": 7,
-  "fetched": 15255,
+  "new_this_run": 5,
+  "fetched": 15265,
   "alerted": 0,
   "classify": {
    "attempted": 50,
